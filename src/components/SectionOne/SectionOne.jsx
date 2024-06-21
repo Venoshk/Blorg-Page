@@ -26,7 +26,7 @@ export const SectionOne = () => {
 
         <div className="container flex items-center justify-center w-full mb-10">
 
-            <h1 className=" title text-3xl text-colorTitle font-semibold absolute top-0 md:top-[15%] md:left-[38%] mt-10">Designer for the future</h1>
+            <h1 className=" title text-3xl md:text-4xl text-colorTitle font-semibold absolute top-0 md:top-[10%] md:left-[38%] mt-10">Designer for the future</h1>
 
         
                 <div className="content-headline flex flex-col items-center justify-between px-5">  
