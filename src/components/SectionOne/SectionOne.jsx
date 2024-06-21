@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react'
-import "./Resposividade.css"
 import Desktop from "../../assets/images/illustration-editor-desktop.svg"
 import Mobile from "../../assets/images/illustration-editor-mobile.svg"
 export const SectionOne = () => {
@@ -23,11 +22,11 @@ export const SectionOne = () => {
     }, [])
 
   return (
-    <section className="relative flex justify-center items-center w-full py-10">
+    <section className="relative flex flex-col-reverse text-center md:text-left md:flex-row justify-center items-center w-full py-10">
 
-        <div className="container flex items-center justify-center w-full">
+        <div className="container flex items-center justify-center w-full mb-10">
 
-            <h1 className=" title text-4xl text-colorTitle font-semibold absolute md:top-[15%] md:left-[38%]">Designer for the future</h1>
+            <h1 className=" title text-3xl text-colorTitle font-semibold absolute top-0 md:top-[15%] md:left-[38%] mt-10">Designer for the future</h1>
 
         
                 <div className="content-headline flex flex-col items-center justify-between px-5">  

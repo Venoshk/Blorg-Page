@@ -1,7 +1,6 @@
 import {useEffect, useState} from 'react';
 import Laptop from "../../assets/images/illustration-laptop-desktop.svg"
 import LaptopMobile from "../../assets/images/illustration-laptop-mobile.svg"
-import "./SectionThree.css"
 export const SectionThree = () => {
 
     const [image, setImage] = useState(window.innerWidth <= 768 ? LaptopMobile : Laptop);
