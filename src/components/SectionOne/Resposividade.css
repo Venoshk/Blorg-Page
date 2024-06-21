@@ -13,3 +13,22 @@
         top: -20px;
     }
 }
+
+@media screen and (max-width:368px){
+    section{
+        margin-top: 5rem;
+        flex-direction: column-reverse;
+
+    }
+
+    .container > .content-headline > .headline{
+        text-align: center;
+        
+    }
+
+    .container h1{
+        top: -30px;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
